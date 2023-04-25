@@ -1,0 +1,42 @@
+.title{
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 25px;
+}
+.thumbnail{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.thumbnail-title{
+    text-align: center;
+    color: gray;
+}
+
+.span{
+    font-size: 13px;
+    color: gray;
+}
+
+.row{
+    clear:both;
+    
+    color: white;
+    margin-right: 5px;
+}
+
+
+.doordash{
+    pointer-events: none;
+}
+.online{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:600px;
+    pointer-events: auto;
+}

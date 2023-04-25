@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Porto Village &#35;2
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="cssfolder/Porto.css">
+        <style>
+            .button-home,
+.button-location,
+.button-gallery,
+.button-reviews,
+.button-first{
+    background-color: white; 
+    font-weight: bold;
+    transition: opacity 0.95s;
+    transition:background-color 0.15s;
+    cursor: pointer;
+    
+}
+.button-home:hover,
+.button-location:hover,
+.button-gallery:hover,
+.button-reviews:hover,
+.button-first:hover{
+    opacity: 0.8;
+    background-color: rgb(232, 228, 228);
+}
+
+
+.button-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+     1fr 1fr;
+}
+.instagram,
+            .yelp{
+            background-color: white;
+            border: none;
+            color: rgb(0, 0, 0);
+            font-family:Grand Hotel;
+            }
+
+            .yelp{
+            color: red;
+            font-family:  Helvetica;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <p class="title">
+                Porto Village &#35;2
+            </p>
+            <div class ="pic">
+                <img class="thumbnail" src="images/food.jpg">
+                
+            </div>
+            
+        </div>
+        <div class="button-grid">
+            
+            <a class="button-home" href="Porto.html">
+                Home
+            </a>
+            <a class="button-first" href="Aboutus.html">
+                About Us
+            </a>
+            <a class="button-location" href="location.html">
+                Location
+            </a>
+            <a class="button-gallery" href="gallery.html">
+                Gallery
+            </a>
+            <a class="button-reviews" href="reviews.html">
+                Reviews
+            </a>
+           
+            <a class="instagram" 
+            href="https://www.instagram.com/portovillage2/?hl=en"
+            target="_blank">
+           
+                Instagram
+            </a>
+            <a class="yelp" 
+            href="https://www.yelp.com/biz/porto-village-pizza-2-los-angeles"
+            target="_blank">
+                yelp
+            </a>
+        </div>
+        <div class="doordash">
+            <a 
+            href="https://www.doordash.com/store/porto-village-pizza-2-los-angeles-2491923/"
+            target="_blank">
+            <img class="online" src="images/doordash.png">
+            </a>
+        </div>
+        <div class="text">
+            <p class="thumbnail-title">
+                 2640 S Western Ave, Los Angeles, CA 90018<br>323&#45;840&#45;3926<br><span class="span">
+                    &#42;Unofficial Website</span>
+            </p>    
+        </div>
+    </body>
+</html>
